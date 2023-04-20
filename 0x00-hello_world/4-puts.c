@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *main - main function
- *char str()
-*/
+ *main - Entry point
+ *Return: always 0
+ */
 int main(void)
 {
-	char str[] = "\"Programming is like building a multilingual puzzle";
+	char str = "\"Programming is like building a multilingual puzzle";
 	puts(str);
 	return (0);
 }
