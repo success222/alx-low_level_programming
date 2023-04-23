@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
  *main - entry point
- *description: rint all the alphabets in lowercase except for q and e
+ *description: print possible combinations of single digits
  *Return: always 0
  */
 int main(void)
 {
-	char x = 'a';
+	int x;
 
-	while (x <= 'z')
+	for (x = 48; x <= 57; x++)
 	{
-		if (x == 'e' || x == 'q')
+		if (x == 57)
 		{
-			x++;
 			continue;
 		}
 		putchar(x);
-		x++;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
