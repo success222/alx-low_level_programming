@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - entry point
@@ -22,7 +23,10 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-	printf("%d ", i);
+		else
+		{
+			printf("%d ", i);
+		}
 	}
 	return (0);
 }
